@@ -1,0 +1,268 @@
+2012-01-19 22:59:52+0000 [scrapy] INFO: Scrapy 0.14.1 started (bot: dealscrape)
+2012-01-19 22:59:54+0000 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, MemoryUsage, SpiderState
+2012-01-19 23:00:13+0000 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats, WebkitDownloader
+2012-01-19 23:00:13+0000 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2012-01-19 23:00:13+0000 [scrapy] DEBUG: Enabled item pipelines: ProcessPipeline, CategorizePipeline, DuplicatesPipeline, JSONExportPipeline, SolrPipeline
+2012-01-19 23:00:13+0000 [streetdeal_sg] INFO: Spider opened
+2012-01-19 23:00:20+0000 [streetdeal_sg] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2012-01-19 23:00:20+0000 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6024
+2012-01-19 23:00:20+0000 [scrapy] DEBUG: Web service listening on 0.0.0.0:6081
+2012-01-19 23:01:59+0000 [streetdeal_sg] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2012-01-19 23:01:59+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg> (referer: None)
+2012-01-19 23:02:02+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/1007/0/SGD155_for_4D3N_Krabi_Thailand_.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:03:26+0000 [scrapy] INFO: Received SIGTERM, shutting down gracefully. Send again to force unclean shutdown
+2012-01-19 23:05:05+0000 [streetdeal_sg] INFO: Closing spider (shutdown)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/969/0/LAST_DAY_SGD98_for_12-months_UNLIMITED_Upperlip_AND_Underarms_IPL_Permanent_Hair_Removal_Pretty_360_Dhoby_Gaut.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/956/0/Ends_Today_SGD10_for_Delta_Nano_Hygiene_-_Revolutionary_Household_Hygiene_Spray.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/964/0/LAST_DAY_CNY_Special_SGD10.90_for_4_Skin_Indulgence_Asian_Skin_Solution_3_central_outlets.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/974/0/SGD6_for_Slimming_Toe_Rings.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/972/0/SGD11_for_Stylus_Touch_Pen._3_Designs_Available.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/976/0/SGD59.90_for_HELLO_KITTY_Mini_Mahjong_Set.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:05+0000 [streetdeal_sg] INFO: Crawled 8 pages (at 8 pages/min), scraped 0 items (at 0 items/min)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/971/0/71_percent_OFF_Hyaluronic_Acid_Ampoule_by_The_Skin_Professionals.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/977/0/50_percent_off_Grill-Out_Steakhouse_cash_voucher_Sunset_Way._Only_25_instead_of_50.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/975/0/SGD38_for_FOUR_Beginners_Introductory_GUITAR_Lessons_United_Music_East_Coast.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/966/0/SGD17.50_for_Basic_Pet_Grooming_Happy_Pawz.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/965/0/45_percent_OFF_3D2N_GENTING_HIGHLANDS_with_Hotel_SVIP_Coach_Buffet_Breakfast.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/954/0/SGD13_for_Colour_Changing_Nail_Lacquer.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/944/0/53_percent_off_Food_Voucher_on_Authentic_Indian_Cuisine_at_BOAT_QUAY.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/968/0/46_percent_OFF_2D1N_BINTAN_with_Resort_Stay_Return_Ferry_Return_Land_Transfer_Breakfast_PERKS.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/989/0/SGD8.80_to_get_from_Mini_Package_to_Busts_Perfection_Tokyo_Bust_Express_.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:05+0000 [streetdeal_sg] DEBUG: Crawled (200) <GET http://www.streetdeal.sg/deals/view/988/0/SGD9_for_Professional_Grooming_Brush_for_Pets_.html> (referer: http://www.streetdeal.sg)
+2012-01-19 23:05:06+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/1007/0/SGD155_for_4D3N_Krabi_Thailand_.html>
+	{'bought': 0,
+	 'category': 'travel',
+	 'determined_source': u'Singapore 189649',
+	 'discount': u'37',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/685402470638955.jpg',
+	 'location': '1.302212,103.852496',
+	 'merchant': u'AX Exotic Travels',
+	 'original_source': u'\n                                                175 Bencoolen Street,Burlington Square #01-25,\n                                                Singapore 189649',
+	 'price': u'155',
+	 'title': u'Go to Krabi Thailand for just $155! Stay 4D3N @ 4* Krabi La Playa Hotel + Daily Breakfast + Return Airport Transfer + City Tour with Lunch + 1day Krabi Island-Hopping Tour by Long Tail Boat with Picnic Lunch. (Min 2 to go)',
+	 'url': 'http://www.streetdeal.sg/deals/view/1007/0/SGD155_for_4D3N_Krabi_Thailand_.html'}
+2012-01-19 23:05:06+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/969/0/LAST_DAY_SGD98_for_12-months_UNLIMITED_Upperlip_AND_Underarms_IPL_Permanent_Hair_Removal_Pretty_360_Dhoby_Gaut.html>
+	{'bought': 29,
+	 'category': 'beauty',
+	 'determined_source': u'190 Clemenceau Ave, Singapore Shopping Centre, Singapore 239924',
+	 'discount': u'95',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/564789257370277.jpg',
+	 'location': '1.298132,103.844138',
+	 'merchant': u'Pretty 360',
+	 'original_source': u'\n                                                190 Clemenceau Avenue ,Singapore Shopping Centre #05-25,\n                                                Singapore 239924,Mon - Fri : 10.30am to 9pm,Sat : 10am to 6pm',
+	 'price': u'98',
+	 'title': u'LAST DAY ! BEST VALUE IPL COMBO DEAL: 12 Months UNLIMITED UpperLip + Underarms IPL Permanent Hair Removal at only $98 instead of $2000 @ Pretty 360, Dhoby Ghaut!',
+	 'url': 'http://www.streetdeal.sg/deals/view/969/0/LAST_DAY_SGD98_for_12-months_UNLIMITED_Upperlip_AND_Underarms_IPL_Permanent_Hair_Removal_Pretty_360_Dhoby_Gaut.html'}
+2012-01-19 23:05:06+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/956/0/Ends_Today_SGD10_for_Delta_Nano_Hygiene_-_Revolutionary_Household_Hygiene_Spray.html>
+	{'bought': 151,
+	 'category': 'others',
+	 'determined_source': None,
+	 'discount': u'54',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/125424552718703.jpg',
+	 'location': None,
+	 'merchant': u'Delta Intercontinental Pte Ltd',
+	 'original_source': u'\n                                                To redeem, please email deltaintercon@singnet.com.sg together with your Name, Contact no., Mailing address, StreetDeal voucher no. with voucher attached, and Quantity',
+	 'price': u'10',
+	 'title': u'Ends Today! Delta Nano Hygiene - Revolutionary Household Hygiene Spray. Kills 99.9% Bacteria, Viruses, Fungi, Algae &amp; removes Odor without chemicals + FREE Registered Mail at only $10!',
+	 'url': 'http://www.streetdeal.sg/deals/view/956/0/Ends_Today_SGD10_for_Delta_Nano_Hygiene_-_Revolutionary_Household_Hygiene_Spray.html'}
+2012-01-19 23:05:06+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/964/0/LAST_DAY_CNY_Special_SGD10.90_for_4_Skin_Indulgence_Asian_Skin_Solution_3_central_outlets.html>
+	{'bought': 185,
+	 'category': 'travel',
+	 'determined_source': u'Singapore 238896',
+	 'discount': u'97',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/796568853971331.jpg',
+	 'location': '1.300825,103.839808',
+	 'merchant': u'Asian Skin Solution',
+	 'original_source': u'\n                                                ,181 Orchard Road,\n                                                Singapore 238896  ',
+	 'price': u'10.90',
+	 'title': u'LAST DAY ! CNY Special! 4 Indulgence at only $10.90 instead of $380. Enjoy A Silky Milk Facial + Reviving Eye Treatment + Private Skin Analysis + Free New Year Pack @ 3 Central Locations.',
+	 'url': 'http://www.streetdeal.sg/deals/view/964/0/LAST_DAY_CNY_Special_SGD10.90_for_4_Skin_Indulgence_Asian_Skin_Solution_3_central_outlets.html'}
+2012-01-19 23:05:06+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/974/0/SGD6_for_Slimming_Toe_Rings.html>
+	{'bought': 335,
+	 'category': 'beauty',
+	 'determined_source': None,
+	 'discount': u'50',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/569368210416619.jpg',
+	 'location': None,
+	 'merchant': u'Beauty Closets',
+	 'original_source': u'\n                                                email: ',
+	 'price': u'6',
+	 'title': u"CNY RELAUNCH SPECIAL! 1-pair of Slimming Toe Rings from Beauty Closets @ just $6! Makes use of Magnetism, Acupressure Points &amp; Massage to stimulate weight loss As You Go. JAPAN'S TOP-SELLING PRODUCT!",
+	 'url': 'http://www.streetdeal.sg/deals/view/974/0/SGD6_for_Slimming_Toe_Rings.html'}
+2012-01-19 23:05:06+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/972/0/SGD11_for_Stylus_Touch_Pen._3_Designs_Available.html>
+	{'bought': 15,
+	 'category': 'others',
+	 'determined_source': None,
+	 'discount': u'63',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/608074104275672.jpg',
+	 'location': None,
+	 'merchant': u'Elephant Deal Singapore',
+	 'original_source': u'\n                                                ,Kindly forward a copy of StreetDeal voucher together with your Name, Email, Contact Number, Top 3 preferences (model and colour), Quantity and Shiping Address to , from ',
+	 'price': u'11',
+	 'title': u'Stylus Touch Pen at only $11 instead of $29.90 with Free Registered Mail! Responsive tip works on any touchscreen device - Stylish, lightweight &amp; user-friendly. 3 Designs Available',
+	 'url': 'http://www.streetdeal.sg/deals/view/972/0/SGD11_for_Stylus_Touch_Pen._3_Designs_Available.html'}
+2012-01-19 23:05:06+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/976/0/SGD59.90_for_HELLO_KITTY_Mini_Mahjong_Set.html>
+	{'bought': 33,
+	 'category': 'travel',
+	 'determined_source': None,
+	 'discount': u'32',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/250695886556059.jpg',
+	 'location': None,
+	 'merchant': u'Luxe Beaute',
+	 'original_source': u'\n                                                ,Email luxe_home@yahoo.com with StreetDeal Voucher attached. Please indicate your name, contact no., mailing address, and preferred delivery time slot',
+	 'price': u'59.90',
+	 'title': u'Luxe HELLO KITTY Mini Mahjong Set @ only $59.90 instead of $88 with Free Hello Kitty Travel Bag! Top up premium to bring home a Doraemon Mahjong Set!',
+	 'url': 'http://www.streetdeal.sg/deals/view/976/0/SGD59.90_for_HELLO_KITTY_Mini_Mahjong_Set.html'}
+2012-01-19 23:05:07+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/971/0/71_percent_OFF_Hyaluronic_Acid_Ampoule_by_The_Skin_Professionals.html>
+	{'bought': 56,
+	 'category': 'beauty',
+	 'determined_source': u'3791 Jalan Bukit Merah, Singapore 159471',
+	 'discount': u'71',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/66536865718691.jpg',
+	 'location': '1.285212,103.811531',
+	 'merchant': u'The Skin Professionals',
+	 'original_source': u'\n                                                E-Centre @ Redhill #10-05 ,3791 Jalan Bukit Merah,\n                                                Singapore 159471 ,Email: ',
+	 'price': u'19.90',
+	 'title': u'Hyaluronic Acid Ampoule by The Skin Professionals @ only $19.90 with Free Delivery! Combines Super Nano Technology for Powerful Anti-Aging &amp; Hydration!',
+	 'url': 'http://www.streetdeal.sg/deals/view/971/0/71_percent_OFF_Hyaluronic_Acid_Ampoule_by_The_Skin_Professionals.html'}
+2012-01-19 23:05:07+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/977/0/50_percent_off_Grill-Out_Steakhouse_cash_voucher_Sunset_Way._Only_25_instead_of_50.html>
+	{'bought': 32,
+	 'category': 'others',
+	 'determined_source': u'106 Clementi Street 12, Singapore 120106',
+	 'discount': u'50',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/671764567727223.jpg',
+	 'location': '1.321915,103.769815',
+	 'merchant': u'Grill-Out Pte Ltd',
+	 'original_source': u'\n                                                Blk 106 Clementi Street 12,#01-38E/50,\n                                                Singapore 120106',
+	 'price': u'25',
+	 'title': u'50% off Grill-Out Steakhouse cash voucher @ Sunset Way. Only $25 instead of $50',
+	 'url': 'http://www.streetdeal.sg/deals/view/977/0/50_percent_off_Grill-Out_Steakhouse_cash_voucher_Sunset_Way._Only_25_instead_of_50.html'}
+2012-01-19 23:05:07+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/975/0/SGD38_for_FOUR_Beginners_Introductory_GUITAR_Lessons_United_Music_East_Coast.html>
+	{'bought': 2,
+	 'category': 'others',
+	 'determined_source': u'136 E Coast Rd, Singapore 428821',
+	 'discount': u'53',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/134898948993259.jpg',
+	 'location': '1.3061295,103.9053852',
+	 'merchant': u'United Music',
+	 'original_source': u'\n                                                136 East Coast Road,#02-01,\n                                                Singapore 428821',
+	 'price': u'38',
+	 'title': u'GUITAR INTRODUCTORY COURSE @ Only $38! Effortlessly pick up guitar playing with FOUR 45min Lessons by EXPERIENCED MUSICIANS @ United Music, East Coast',
+	 'url': 'http://www.streetdeal.sg/deals/view/975/0/SGD38_for_FOUR_Beginners_Introductory_GUITAR_Lessons_United_Music_East_Coast.html'}
+2012-01-19 23:05:07+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/966/0/SGD17.50_for_Basic_Pet_Grooming_Happy_Pawz.html>
+	{'bought': 22,
+	 'category': 'others',
+	 'determined_source': u'2 Everton Park, Singapore 081002',
+	 'discount': u'65',
+	 'expiry': 1327014000,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/966770986443520.jpg',
+	 'location': '1.277409,103.839334',
+	 'merchant': u'Happy Pawz',
+	 'original_source': u'\n                                                Blk 2, Everton Park,,#01-57,\n                                                Singapore 081002',
+	 'price': u'17.50',
+	 'title': u'$17.50 for Basic Pet Grooming by CALIFORNIA CERTIFIED GROOMER @ Happy Pawz!',
+	 'url': 'http://www.streetdeal.sg/deals/view/966/0/SGD17.50_for_Basic_Pet_Grooming_Happy_Pawz.html'}
+2012-01-19 23:05:07+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/965/0/45_percent_OFF_3D2N_GENTING_HIGHLANDS_with_Hotel_SVIP_Coach_Buffet_Breakfast.html>
+	{'bought': 16,
+	 'category': 'travel',
+	 'determined_source': u'5001 Beach Rd, Golden Mile Tower, Singapore 199588',
+	 'discount': u'45',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/176888997200876.jpg',
+	 'location': '1.302771,103.865172',
+	 'merchant': u'Transtar Travel Pte Ltd',
+	 'original_source': u'\n                                                ,5001 Beach Road,Golden Mile Complex, #01-12,\n                                                Singapore 199588',
+	 'price': u'108',
+	 'title': u'45% OFF 3D2N GENTING HIGHLANDS @ ONLY $108 By Transtar Travel with 2-nights stay at First World Hotel (Deluxe Room) + Return SVIP Coach + Buffet Breakfast!',
+	 'url': 'http://www.streetdeal.sg/deals/view/965/0/45_percent_OFF_3D2N_GENTING_HIGHLANDS_with_Hotel_SVIP_Coach_Buffet_Breakfast.html'}
+2012-01-19 23:05:07+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/954/0/SGD13_for_Colour_Changing_Nail_Lacquer.html>
+	{'bought': 36,
+	 'category': 'beauty',
+	 'determined_source': None,
+	 'discount': u'35',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/325964001339598.jpg',
+	 'location': None,
+	 'merchant': u'Kleptomania',
+	 'original_source': u'\n                                                ,Email kathleen.d@kleptomania-online.com together with your: Name, Contact No, Delivery Address, Choice of Colour Pair &amp; FULL StreetDeal Voucher No. with Voucher attached',
+	 'price': u'13',
+	 'title': u'Stylish COLOUR CHANGING Nail Lacquer by Blaze @ only $13 with Free Registered Mail. Changes Colour In The Sun! Available in 21 colours, min. 2 vouchers',
+	 'url': 'http://www.streetdeal.sg/deals/view/954/0/SGD13_for_Colour_Changing_Nail_Lacquer.html'}
+2012-01-19 23:05:07+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/944/0/53_percent_off_Food_Voucher_on_Authentic_Indian_Cuisine_at_BOAT_QUAY.html>
+	{'bought': 64,
+	 'category': 'food',
+	 'determined_source': u'49 Boat Quay, Singapore 049838',
+	 'discount': u'53',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/44155733595670.jpg',
+	 'location': '1.286911,103.849324',
+	 'merchant': u'Indian House Boat Quay',
+	 'original_source': u'\n                                                49 Boat Quay,\n                                                Singapore 049838',
+	 'price': u'14',
+	 'title': u'GOOD FOOD AT GOOD PRICE! $30 Food Voucher on Authentic Indian Cuisine BY THE RIVERFRONT for only $14 @ Indian House of Boat Quay + 15% off Additional Food Order',
+	 'url': 'http://www.streetdeal.sg/deals/view/944/0/53_percent_off_Food_Voucher_on_Authentic_Indian_Cuisine_at_BOAT_QUAY.html'}
+2012-01-19 23:05:07+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/968/0/46_percent_OFF_2D1N_BINTAN_with_Resort_Stay_Return_Ferry_Return_Land_Transfer_Breakfast_PERKS.html>
+	{'bought': 10,
+	 'category': 'travel',
+	 'determined_source': u'Singapore 179103',
+	 'discount': u'46',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/407325262203813.jpg',
+	 'location': '1.294094,103.853179',
+	 'merchant': u'Lokopoko Pte Ltd',
+	 'original_source': u'\n                                                ,252 North Bridge Road,\n                                                Singapore 179103',
+	 'price': u'97',
+	 'title': u'46% OFF 2D1N BINTAN Beach Getaway @ Only $97 with 1-night stay at Nirwana Beach Club + Return Ferry Tickets + Return Land Transfer + Breakfast + Free Archery/Rifle Shooting/Bowling',
+	 'url': 'http://www.streetdeal.sg/deals/view/968/0/46_percent_OFF_2D1N_BINTAN_with_Resort_Stay_Return_Ferry_Return_Land_Transfer_Breakfast_PERKS.html'}
+2012-01-19 23:05:07+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/989/0/SGD8.80_to_get_from_Mini_Package_to_Busts_Perfection_Tokyo_Bust_Express_.html>
+	{'bought': 28,
+	 'category': 'beauty',
+	 'determined_source': u'Singapore 238896',
+	 'discount': u'98',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/47154243420618.jpg',
+	 'location': '1.300825,103.839808',
+	 'merchant': u'Tokyo Bust Express',
+	 'original_source': u'\n                                                181 Orchard Road,#08-07 Orchard Central,\n                                                Singapore 238896',
+	 'price': u'8.80',
+	 'title': u'CNY Exclusive! Mini Package to Busts Perfection at only $8.80 instead of $580 for: 2 Sessions of Kou You Volumiser Therapy + 2 Daizu Maxi Enhancer Treatment + Private Bust Analysis + Complimentary CNY Pack @Tokyo Bust Express (3 Central Outlets)',
+	 'url': 'http://www.streetdeal.sg/deals/view/989/0/SGD8.80_to_get_from_Mini_Package_to_Busts_Perfection_Tokyo_Bust_Express_.html'}
+2012-01-19 23:05:07+0000 [streetdeal_sg] DEBUG: Scraped from <200 http://www.streetdeal.sg/deals/view/988/0/SGD9_for_Professional_Grooming_Brush_for_Pets_.html>
+	{'bought': 10,
+	 'category': 'beauty',
+	 'determined_source': u'Singapore 768441',
+	 'discount': u'63',
+	 'expiry': 1327075200,
+	 'imgsrc': u'http://www.streetdeal.sg/images/deals/13981022525203.jpg',
+	 'location': '1.439108,103.840525',
+	 'merchant': u'Inter Gifts &amp; Amenities Choixes',
+	 'original_source': u'\n                                                1 Yishun St 23,YS-ONE #03-02,\n                                                Singapore 768441',
+	 'price': u'9',
+	 'title': u'$9 for Professional Pet Grooming Brush! 360 Degree Adjustable Rotating Head with Easy Fur Removal at a Flip!',
+	 'url': 'http://www.streetdeal.sg/deals/view/988/0/SGD9_for_Professional_Grooming_Brush_for_Pets_.html'}
+2012-01-19 23:05:08+0000 [streetdeal_sg] INFO: Dumping spider stats:
+	{'downloader/request_bytes': 5705,
+	 'downloader/request_count': 18,
+	 'downloader/request_method_count/GET': 18,
+	 'downloader/response_bytes': 2293183,
+	 'downloader/response_count': 18,
+	 'downloader/response_status_count/200': 18,
+	 'finish_reason': 'shutdown',
+	 'finish_time': datetime.datetime(2012, 1, 19, 23, 5, 8, 391630),
+	 'item_scraped_count': 17,
+	 'request_depth_max': 1,
+	 'scheduler/memory_enqueued': 35,
+	 'start_time': datetime.datetime(2012, 1, 19, 23, 0, 13, 132511)}
+2012-01-19 23:05:08+0000 [streetdeal_sg] INFO: Spider closed (shutdown)
+2012-01-19 23:05:08+0000 [scrapy] INFO: Dumping global stats:
+	{'memusage/max': 202702848, 'memusage/startup': 95977472}

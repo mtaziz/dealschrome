@@ -1,0 +1,754 @@
+2012/04/08 12:31:36 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//voucherlicious.com/img/medium_big_thumb/Deal/1223.ec74dfd351d196821a3184860328d1d2.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:36 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//dl.dropbox.com/u/53556274/05%2520Apr-%2520Vivitalia/Slide%25201.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:36 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//dl.dropbox.com/u/53556274/27%2520Mar-%2520Smokeless%2520Palace/Slide%25201.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:36 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//static.sg.groupon-content.net/14/11/1333795811114.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:36 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//www.streetdeal.sg/images/deals/178102451376617.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:36 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//voucherlicious.com/img/medium_big_thumb/Deal/1151.019c4e295a08352676ef39a9cadbe4f7.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:36 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//static.sg.groupon-content.net/33/99/1333538509933.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:36 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//dl.dropbox.com/u/53556274/30%2520Mar-%2520SuanThai/Slide%25204.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:36 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//static.sg.groupon-content.net/20/18/1333337581820.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:36 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//www.deal.com.sg/sites/default/files/Laser-Lipo-Fat-Loss-%28V%29_0_0.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//static.sg.groupon-content.net/80/84/1333434388480.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//content.outlet.com.sg/media/catalog/product/cache/1/image/460x345/4137793dd7223b9146d9dcb53ced065c/b/e/beautyherbshead-1.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//dl.dropbox.com/u/53556274/29%2520Mar-%2520Sun%2520Ray%2520Cafe/Slide%25201.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//www.streetdeal.sg/images/deals/918201375985518.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//juztoday.com/deal/263/img/aircool.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//juztoday.com/deal/343/img/house-of-seafood.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//juztoday.com/deal/271/img/header.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//static.sg.groupon-content.net/53/48/1333592784853.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//www.deal.com.sg/sites/default/files/cruzerrev_0.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//dl.dropbox.com/u/53556274/29%2520Mar-%2520iStar%2520Mophie%2520Juice%2520Pack/Slide%25201.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//dl.dropbox.com/u/53556274/30th%2520Mar%2520-%2520Fruit%2520Frolic/Main%2520Pic.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//dl.dropbox.com/u/53556274/01%2520Apr-%2520Happy%2520Mori%2520iPhone%2520Case/Slide%25202.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//content.outlet.com.sg/media/catalog/product/cache/1/image/460x345/4137793dd7223b9146d9dcb53ced065c/j/e/jewelry_organizer.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//www.deal.com.sg/sites/default/files/Hokkaido%20Sushi.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//www.deal.com.sg/sites/default/files/Caf%20Cafe.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//www.streetdeal.sg/images/deals/292752545543681.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//voucherlicious.com/img/medium_big_thumb/Deal/1188.885d73b3a604594a516bb9086c34ebcb.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//www.deal.com.sg/sites/default/files/Kukkup.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=http%3A//dl.dropbox.com/u/53556274/31%2520Mar-%2520Xiang%2520Qin%2520Organiser%2520Bag/Slide%25201.jpg
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 12:31:37 [error] [php] chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) (/var/www/dealschrome/protected/components/ImageCache/ImageCache.php:12)
+Stack trace:
+#0 unknown(0): ImagecacheController->actionIndex()
+#1 /var/www/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /var/www/yii/framework/web/CController.php(287): ImagecacheController->runAction()
+#5 /var/www/yii/framework/web/CController.php(266): ImagecacheController->runActionWithFilters()
+#6 /var/www/yii/framework/web/CWebApplication.php(276): ImagecacheController->run()
+#7 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/imagecache?width=210&url=https%3A//lh3.googleusercontent.com/-yn9IwvIvdnU/T39jJqlZLXI/AAAAAAAAAGI/LvZj4Ku-DWU/s440/Flash%2525201.JPG
+in /var/www/dealschrome/protected/components/ImageCache/ImageCache.php (12)
+in /var/www/dealschrome/protected/controllers/ImagecacheController.php (6)
+in /var/www/dealschrome/index.php (15)
+2012/04/08 13:31:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/soapCaller.bs".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('user/soapCaller...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/user/soapCaller.bs
+---
+2012/04/08 15:11:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "w00tw00t.at.blackhats.romanian.anti-sec:)".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('w00tw00t.at.bla...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/w00tw00t.at.blackhats.romanian.anti-sec:)
+---
+2012/04/08 15:11:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpMyAdmin/scripts/setup.php".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('phpMyAdmin/scri...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpMyAdmin/scripts/setup.php
+---
+2012/04/08 15:11:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pma/scripts/setup.php".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('pma/scripts/set...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/pma/scripts/setup.php
+---
+2012/04/08 15:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "myadmin/scripts/setup.php".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('myadmin/scripts...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/myadmin/scripts/setup.php
+---
+2012/04/08 15:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "MyAdmin/scripts/setup.php".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('MyAdmin/scripts...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/MyAdmin/scripts/setup.php
+---
+2012/04/08 15:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vicidial/project_auth_entries.txt".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('vicidial/projec...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/vicidial/project_auth_entries.txt
+---
+2012/04/08 17:24:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/04/08 19:09:05 [error] [php] Undefined variable: query (/var/www/dealschrome/protected/modules/deal/models/DealModel.php:17)
+Stack trace:
+#0 /var/www/yii/framework/web/CBaseController.php(174): TopSearches->run()
+#1 /var/www/dealschrome/protected/modules/deal/views/search/page_home.php(66): SearchController->widget()
+#2 /var/www/yii/framework/web/CBaseController.php(127): require()
+#3 /var/www/yii/framework/web/CBaseController.php(96): SearchController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(870): SearchController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(783): SearchController->renderPartial()
+#6 /var/www/dealschrome/protected/modules/deal/controllers/SearchController.php(14): SearchController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(50): SearchController->actionSimple()
+#8 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/CController.php(287): SearchController->runAction()
+#10 /var/www/yii/framework/web/CController.php(266): SearchController->runActionWithFilters()
+#11 /var/www/yii/framework/web/CWebApplication.php(276): SearchController->run()
+#12 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#13 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#14 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/dealschrome/protected/modules/deal/models/DealModel.php (17)
+in /var/www/dealschrome/protected/modules/deal/models/TopSearch.php (77)
+in /var/www/dealschrome/protected/modules/deal/components/widgets/TopSearches/TopSearches.php (7)
+2012/04/08 19:09:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://46.137.209.161/
+---
+2012/04/08 19:12:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://46.137.209.161/
+---
+2012/04/08 19:15:09 [error] [php] Trying to get property of non-object (/var/www/dealschrome/protected/modules/deal/models/DealModel.php:30)
+Stack trace:
+#0 /var/www/yii/framework/web/CBaseController.php(174): HomepageTabs->run()
+#1 /var/www/dealschrome/protected/modules/deal/views/search/page_home.php(68): SearchController->widget()
+#2 /var/www/yii/framework/web/CBaseController.php(127): require()
+#3 /var/www/yii/framework/web/CBaseController.php(96): SearchController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(870): SearchController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(783): SearchController->renderPartial()
+#6 /var/www/dealschrome/protected/modules/deal/controllers/SearchController.php(14): SearchController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(50): SearchController->actionSimple()
+#8 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/CController.php(287): SearchController->runAction()
+#10 /var/www/yii/framework/web/CController.php(266): SearchController->runActionWithFilters()
+#11 /var/www/yii/framework/web/CWebApplication.php(276): SearchController->run()
+#12 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#13 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#14 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/dealschrome/protected/modules/deal/models/DealModel.php (30)
+in /var/www/dealschrome/protected/modules/deal/components/widgets/HomepageTabs/HomepageTabs.php (65)
+in /var/www/dealschrome/protected/modules/deal/components/widgets/HomepageTabs/HomepageTabs.php (14)
+2012/04/08 19:15:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://46.137.209.161/
+---
+2012/04/08 19:16:23 [error] [php] Trying to get property of non-object (/var/www/dealschrome/protected/modules/deal/models/DealModel.php:18)
+Stack trace:
+#0 /var/www/yii/framework/web/CBaseController.php(174): TopSearches->run()
+#1 /var/www/dealschrome/protected/modules/deal/views/search/page_home.php(66): SearchController->widget()
+#2 /var/www/yii/framework/web/CBaseController.php(127): require()
+#3 /var/www/yii/framework/web/CBaseController.php(96): SearchController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(870): SearchController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(783): SearchController->renderPartial()
+#6 /var/www/dealschrome/protected/modules/deal/controllers/SearchController.php(14): SearchController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(50): SearchController->actionSimple()
+#8 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/CController.php(287): SearchController->runAction()
+#10 /var/www/yii/framework/web/CController.php(266): SearchController->runActionWithFilters()
+#11 /var/www/yii/framework/web/CWebApplication.php(276): SearchController->run()
+#12 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#13 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#14 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/dealschrome/protected/modules/deal/models/DealModel.php (18)
+in /var/www/dealschrome/protected/modules/deal/models/TopSearch.php (77)
+in /var/www/dealschrome/protected/modules/deal/components/widgets/TopSearches/TopSearches.php (7)
+2012/04/08 19:16:27 [error] [php] Trying to get property of non-object (/var/www/dealschrome/protected/modules/deal/models/DealModel.php:18)
+Stack trace:
+#0 /var/www/yii/framework/web/CBaseController.php(174): TopSearches->run()
+#1 /var/www/dealschrome/protected/modules/deal/views/search/page_home.php(66): SearchController->widget()
+#2 /var/www/yii/framework/web/CBaseController.php(127): require()
+#3 /var/www/yii/framework/web/CBaseController.php(96): SearchController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(870): SearchController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(783): SearchController->renderPartial()
+#6 /var/www/dealschrome/protected/modules/deal/controllers/SearchController.php(14): SearchController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(50): SearchController->actionSimple()
+#8 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/CController.php(287): SearchController->runAction()
+#10 /var/www/yii/framework/web/CController.php(266): SearchController->runActionWithFilters()
+#11 /var/www/yii/framework/web/CWebApplication.php(276): SearchController->run()
+#12 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#13 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#14 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/dealschrome/protected/modules/deal/models/DealModel.php (18)
+in /var/www/dealschrome/protected/modules/deal/models/TopSearch.php (77)
+in /var/www/dealschrome/protected/modules/deal/components/widgets/TopSearches/TopSearches.php (7)
+2012/04/08 19:24:10 [error] [php] Trying to get property of non-object (/var/www/dealschrome/protected/modules/deal/models/DealModel.php:18)
+Stack trace:
+#0 /var/www/yii/framework/web/CBaseController.php(174): TopSearches->run()
+#1 /var/www/dealschrome/protected/modules/deal/views/search/page_home.php(66): SearchController->widget()
+#2 /var/www/yii/framework/web/CBaseController.php(127): require()
+#3 /var/www/yii/framework/web/CBaseController.php(96): SearchController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(870): SearchController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(783): SearchController->renderPartial()
+#6 /var/www/dealschrome/protected/modules/deal/controllers/SearchController.php(14): SearchController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(50): SearchController->actionSimple()
+#8 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/CController.php(287): SearchController->runAction()
+#10 /var/www/yii/framework/web/CController.php(266): SearchController->runActionWithFilters()
+#11 /var/www/yii/framework/web/CWebApplication.php(276): SearchController->run()
+#12 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#13 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#14 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/dealschrome/protected/modules/deal/models/DealModel.php (18)
+in /var/www/dealschrome/protected/modules/deal/models/TopSearch.php (77)
+in /var/www/dealschrome/protected/modules/deal/components/widgets/TopSearches/TopSearches.php (7)
+2012/04/08 19:24:36 [error] [php] Trying to get property of non-object (/var/www/dealschrome/protected/modules/deal/models/DealModel.php:30)
+Stack trace:
+#0 /var/www/yii/framework/web/CBaseController.php(174): HomepageTabs->run()
+#1 /var/www/dealschrome/protected/modules/deal/views/search/page_home.php(68): SearchController->widget()
+#2 /var/www/yii/framework/web/CBaseController.php(127): require()
+#3 /var/www/yii/framework/web/CBaseController.php(96): SearchController->renderInternal()
+#4 /var/www/yii/framework/web/CController.php(870): SearchController->renderFile()
+#5 /var/www/yii/framework/web/CController.php(783): SearchController->renderPartial()
+#6 /var/www/dealschrome/protected/modules/deal/controllers/SearchController.php(14): SearchController->render()
+#7 /var/www/yii/framework/web/actions/CInlineAction.php(50): SearchController->actionSimple()
+#8 /var/www/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#9 /var/www/yii/framework/web/CController.php(287): SearchController->runAction()
+#10 /var/www/yii/framework/web/CController.php(266): SearchController->runActionWithFilters()
+#11 /var/www/yii/framework/web/CWebApplication.php(276): SearchController->run()
+#12 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#13 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#14 /var/www/dealschrome/index.php(15): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/dealschrome/protected/modules/deal/models/DealModel.php (30)
+in /var/www/dealschrome/protected/modules/deal/components/widgets/HomepageTabs/HomepageTabs.php (65)
+in /var/www/dealschrome/protected/modules/deal/components/widgets/HomepageTabs/HomepageTabs.php (14)
+2012/04/09 02:15:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "w00tw00t.at.blackhats.romanian.anti-sec:)".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('w00tw00t.at.bla...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/w00tw00t.at.blackhats.romanian.anti-sec:)
+---
+2012/04/09 02:15:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpMyAdmin/scripts/setup.php".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('phpMyAdmin/scri...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/phpMyAdmin/scripts/setup.php
+---
+2012/04/09 02:15:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pma/scripts/setup.php".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('pma/scripts/set...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/pma/scripts/setup.php
+---
+2012/04/09 02:15:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "myadmin/scripts/setup.php".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('myadmin/scripts...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/myadmin/scripts/setup.php
+---
+2012/04/09 02:15:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "MyAdmin/scripts/setup.php".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('MyAdmin/scripts...')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/MyAdmin/scripts/setup.php
+---
+2012/04/09 03:06:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "map".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('map')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/map
+---
+2012/04/09 03:06:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /var/www/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/dealschrome/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://46.137.209.161/map
+---

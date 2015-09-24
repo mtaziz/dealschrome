@@ -1,0 +1,143 @@
+from scrapy.xlib.pydispatch import dispatcher
+from scrapy import signals
+from scrapy import log
+from twisted.enterprise import adbapi
+import time
+import MySQLdb.cursors
+
+"""\
+
+PIPELINE SCHEME
+
+when spider open:
+    find spider/dealsource id, if not exists, create one first
+    mark all state as grey(2) : (0=expired, 1=active, 2=grey state)
+during process item:
+    if item exists, 
+        update and mark as active,
+    else insert anew
+when spider close:
+    mark all grey state to expired
+    
+    
+"""
+
+class SQLStorePipeline(object):
+
+    unpublished_state = 0
+    published_state = 1
+    grey_state = 2
+
+    def __init__(self):
+        dispatcher.connect(self.spider_opened, signals.spider_opened)
+        dispatcher.connect(self.spider_closed, signals.spider_closed)
+        self.dbpool = adbapi.ConnectionPool(
+            'MySQLdb', 
+            host='122.248.241.145',
+            db='play',
+            user='play', 
+            passwd='WINDzen89', 
+            cursorclass=MySQLdb.cursors.DictCursor,
+            charset='utf8', use_unicode=True
+        )
+        itempool = {}
+
+    def spider_opened(self, spider):
+        deferred_query = self.dbpool.runInteraction(self.mark_all_grey, spider)
+        deferred_query.addErrback(self.handle_error)
+        
+    def spider_closed(self, spider):
+        deferred_query = self.dbpool.runInteraction(self.unpublish_grey_items, spider)
+        deferred_query.addErrback(self.handle_error)
+        
+    def process_item(self, item, spider):
+        # run db query in thread pool
+        deferred_query = self.dbpool.runInteraction(self.conditional_insert, item)
+        deferred_query.addErrback(self.handle_error)
+        return item
+    
+    def mark_all_grey(self, tx, spider):
+        #find id of the spider/source
+        tx.execute("select id from tbl_dealsource where name=%s", (spider.name,))
+        self.source_id = tx.fetchone()['id']
+        if self.source_id:
+            tx.execute(
+                "update tbl_deal set status=%s where source_id=%s and status=%s",
+                (self.grey_state, self.source_id, self.published_state))
+        else:
+            # new deals coming, no need to set deals to grey
+            self._insert_dealsource(tx, spider)
+            #find id of the spider/source
+            tx.execute("select id from tbl_dealsource where name=%s", (spider.name,))
+            self.source_id = tx.fetchone()['id']
+    
+    def unpublish_grey_items(self ,tx, spider):
+        if not self.source_id:
+            # cannot reach spider closed without having spider opened run the greystate marking
+            log.msg('updating non-existent site items', level=log.ERROR)
+            raise
+        tx.execute(
+            "update tbl_deal set status=%s where status=%s and source_id=%s",
+            (self.unpublished_state, self.grey_state, self.source_id))
+    
+    def conditional_insert(self, tx, item):
+        log.msg("I am inside conditional insert" , level=log.INFO)
+        # create record if doesn't exist. 
+        # all this block run on it's own thread
+        tx.execute(
+            "select * from tbl_deal where url = %s and status=%s", 
+            (item['url'], self.published_state))
+        result = tx.fetchone()
+        if result:
+            self._update_deal(tx,item)
+        else:
+            self._insert_deal(tx,item)
+            
+    def _update_deal(self, tx, item):
+        log.msg("I am inside _update_deal" , level=log.INFO)
+        tx.execute(\
+            "update tbl_deal set " 
+            "title=%s, bought=%s, price=%s, discount=%s, expiry=%s, created=%s "
+            "where url=%s and status=%s",
+            (
+                item['title'],
+                item['bought'],
+                item['price'],
+                item['discount'],
+                item['expiry'],
+                int(time.time()),
+                item['url'],
+                self.published_state
+            ))
+        log.msg("Item updated: %s" % item, level=log.INFO)
+        return True
+    
+    def _insert_deal(self, tx, item):
+        log.msg("I am inside _insert_deal" , level=log.INFO)
+        tx.execute(\
+            "insert into tbl_deal (source_id, url, title, bought, price, discount, expiry, created, status) "
+            "values (%s, %s, %s, %s, %s, %s, %s, %s, %s)",
+            (
+                self.source_id,
+                item['url'],
+                item['title'],
+                item['bought'],
+                item['price'],
+                item['discount'],
+                item['expiry'],
+                int(time.time()),
+                self.published_state
+            ))
+        log.msg("Item added: %s" % item, level=log.INFO)
+        return True
+    
+    def _insert_dealsource(self, tx, spider):
+        tx.execute(\
+            "insert into tbl_dealsource (domain, name) "
+            "values (%s, %s)", 
+            (spider.allowed_domains[0], spider.name))
+        log.msg("Dealsource added: %s" % spider.name, level=log.INFO)
+        return True
+    
+    def handle_error(self, e):
+        log.msg("Error in mysql pipeline: %s" % e, level=log.CRITICAL)
